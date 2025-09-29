@@ -1,5 +1,5 @@
 % Calculate and plot 3D radial phyllotaxis trajectory
-% Author: Eva Peper
+% Author: Eva S Peper, evaspeper@gmail.com
 % Date: 28/08/2024
 
 %% Initialization
@@ -31,18 +31,18 @@ for i = 1:5
         '.-', 'Markersize', 10, 'LineWidth', 2); grid on;
     hold on;
 end
-xlabel('x'); ylabel('y'); zlabel('z');
+xlabel('kx'); ylabel('ky'); zlabel('kz');
 axis([-1 1 -1 1 -1 1])
-title('Trajectory for 5 interleaves');
+title('trajectory for 5 interleaves');
 
 % Plot polar and azimuthal angles for the first interleave
 subplot(1, 2, 2);
 i = 1;
 plot(polarAngle(1, (i-1)*nseg+1:i*nseg), '.-', 'Markersize', 10, 'LineWidth', 2); hold on;
 plot(azimuthalAngle(1, (i-1)*nseg+1:i*nseg), '.-', 'Markersize', 10, 'LineWidth', 2); grid on;
-legend('Polar angle', 'Azimuthal angle');
-xlabel('#Segments'); ylabel('Angle [rad]');
-title('Azimuthal and polar angle for one interleave');
+legend('polar angle', 'azimuthal angle');
+xlabel('segment'); ylabel('angle [rad]');
+title('azimuthal and polar angle for one interleave');
 exportgraphics(t,[path,'trajectory_continuous.png'],'Resolution',400)
 
 %% Trajectory in k-space convetions for IDEA and MATLAB reconstruction
@@ -66,3 +66,4 @@ kz = reshape(kz, [N, nseg, nshot]);
 % Trajectory used for reconstruction
 Traj3D   = cat(4, kx, ky, kz);
 Traj3D   = reshape(Traj3D,[N, nseg*nshot, 1, 3]);
+

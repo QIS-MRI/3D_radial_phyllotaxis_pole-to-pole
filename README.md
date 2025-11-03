@@ -22,7 +22,7 @@ The continuous phyllotaxis trajectory extends the pole-to-pole design by smoothl
 The following figures illustrate each of the three methods:
 
 - **Original Phyllotaxis**  
-![Original Phyllotaxis](/code/trajectories/trajectory_original_nSeg200_nShot89.gif)
+<img src="/code/trajectories/trajectory_original_nSeg200_nShot89.gif" width="400" alt="Original Phyllotaxis">
 
 - **Pole-to-Pole Phyllotaxis**  
 ![Original Phyllotaxis](/code/trajectories/trajectory_pole-to-pole_nSeg200_nShot89.gif)

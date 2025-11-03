@@ -1,14 +1,13 @@
 # 3D Radial Phyllotaxis Trajectories
 
-This repository contains implementations of three different 3D radial phyllotaxis trajectories: the **Original Phyllotaxis**, **Pole-to-Pole Phyllotaxis**, and **Continuous Phyllotaxis**.  
-Each method has unique characteristics that impact the sampling of k-space.
+This repository contains the implementations of three different 3D radial phyllotaxis trajectories: the **Original Phyllotaxis**, **Pole-to-Pole Phyllotaxis**, and **Continuous Phyllotaxis**. Each method has unique characteristics that impact the sampling of k-space, described in Peper et al., 2025.
 
 ---
 
 ## Trajectories
 
 ### 1. Original Phyllotaxis
-The original phyllotaxis pattern proposed by [*Piccini et al. ,2011*](https://pubmed.ncbi.nlm.nih.gov/21469185/) provides a uniform sampling of 3D k-space by evenly distributing the starting points of the readout spokes across the upper hemisphere of a spherical surface.
+The original phyllotaxis pattern proposed by [*Piccini et al., 2011*](https://pubmed.ncbi.nlm.nih.gov/21469185/) provides a uniform sampling of 3D k-space by evenly distributing the starting points of the readout spokes across the upper hemisphere of a spherical surface.
 
 ### 2. Pole-to-Pole Phyllotaxis
 In this version, the starting points of the spokes are distributed across both hemispheres, following a continuous path from one pole to the other.
@@ -35,7 +34,7 @@ The following figures illustrate each of the three methods:
 
 ## Code
 
-The repository contains MATLAB code to generate and plot these trajectories. You can set the desired number of readout points, interleaves (shots), and segments.
+This repository contains MATLAB code to generate and plot the different phyllotaxis trajectories and compiled Pulseq sequences for each trajectory. It also provides code for 3D radial image reconstruction using the [gpuNUFFT](https://cai2r.net/resources/gpunufft-an-open-source-gpu-library-for-3d-gridding-with-direct-matlab-interface/).
 
 ### Directory Structure
 

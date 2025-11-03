@@ -45,9 +45,6 @@ This repository contains MATLAB code to generate and plot the different phyllota
 ├── sequences/              # Compiled 3D Radial Phyllotaxis trajectories for Pulseq
 ├── utils/                  # MATLAB helper functions for reconstruction and correction methods
 ├── gpunufft/               # gpuNUFFT functions for reconstructing 3D radial data
-├── mapBVBD/                # Functions to read Siemens raw data
-├── data/                   # Example raw and MATLAB data
-└── figures/                # Example figures
 ```
 
 ---

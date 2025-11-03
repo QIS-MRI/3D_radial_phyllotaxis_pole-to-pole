@@ -105,7 +105,7 @@ Users may directly play out the `.seq` files on any compatible MRI scanner with 
 
 ## 3D Radial Phyllotaxis Reconstruction Code
 
-All data can be retrieved from **Zenodo**: [link to dataset]  
+All data can be retrieved from **Zenodo**: [[link to dataset](https://zenodo.org/uploads/17428583)  
 The following experiments from the paper can be conducted using the provided data and code.
 
 ---

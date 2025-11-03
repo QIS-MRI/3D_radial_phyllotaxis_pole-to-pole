@@ -130,11 +130,10 @@ The following experiments from Peper et al., 2025 can be conducted using the pro
 
 ## References
 
-Peper et al., 2024.  
-*Pole-to-Pole 3D Radial Trajectory Designs Improve Image Quality and Quantitative Parametric Mapping in the Brain and Heart.* MRM (2025)
-Peper et al. 
-_Evaluate 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping._ Proc. Intl. Soc. Mag. Reson. Med. (2025)
+// Peper et al. *Pole-to-Pole 3D Radial Trajectory Designs Improve Image Quality and Quantitative Parametric Mapping in the Brain and Heart.* MRM (2025)
+Peper et al. [*Evaluation of 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping.*](https://archive.ismrm.org/2025/0636_38aazwRbM.html) Proc. Intl. Soc. Mag. Reson. Med. (2025)
 
 ## Applications
-Tagliabue et al. _FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart._ Proc. Intl. Soc. Mag. Reson. Med. (2026)
-Tagliabue et al. _FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart._ Proc. Intl. Soc. Mag. Reson. Med. (2026)
+Tagliabue et al. *FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart.* Proc. Intl. Soc. Mag. Reson. Med. (2026)
+Tagliabue et al. *Feasibility of free-breathing liver T1 and T2 mapping using 3D radial phase-cycled balanced steady-state free-precession.* Proc. Intl. Soc. Mag. Reson. Med. (2026)
+Jia et al. *Vendor-agnostic implementation of 3D radial gradient echo sequence with LIBRE water-excitation pulses for eye imaging.* Proc. Intl. Soc. Mag. Reson. Med. (2026)

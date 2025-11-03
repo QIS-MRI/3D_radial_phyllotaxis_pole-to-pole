@@ -101,26 +101,27 @@ The following experiments from Peper et al., 2025 can be conducted using the pro
 ---
 
 ### Experiment 1  
-**One 180° phase-cycle, original Phyllotaxis, two bandwidths, different FOV orientations, and scanners**
+**Scan with one 180° RF phase increment using the original Phyllotaxis trajectory, two bandwidths, different FOV orientations, and different scanners**
 
-- Use the normal reconstructions provided.  
-- Use the Original Phyllotaxis sequence (two bandwidths) from `/sequence` and scan in sagittal, transverse, and coronal orientations, both in- and off-isocenter.  
-- **Recon Experiment 1.1:** Reconstruct this data and observe the artifacts in the Original Phyllotaxis scans, independent of FOV orientation and stronger at higher bandwidths.  
+- Use the Original Phyllotaxis sequence (two bandwidths) from `/sequences` and scan in sagittal, transverse, and coronal orientations OR use scans 1-5 on [**Zenodo**](https://zenodo.org/uploads/17428583).
+- Use the normal reconstructions provided.    
+  
+- **Recon Experiment 1.1:** Reconstruct this data and observe the artifacts in the scans using the Original Phyllotaxis, independent of FOV orientation and stronger at higher bandwidths.  
   *(Corresponds to Figure 2 in the paper)*
 
 ---
 
 ### Experiment 2  
-**One 180° phase-cycle, original, pole-to-pole, and continuous Phyllotaxis at high bandwidths**
+**Scan with one 180° RF phase increment using original, pole-to-pole, and continuous Phyllotaxis trajectories at high bandwidths**
 
+- Use the Original, Pole-to-Pole, and Continuous Phyllotaxis sequences from `/sequences` OR use scans 1-14 on [**Zenodo**](https://zenodo.org/uploads/17428583).
 - Use the normal reconstructions provided.  
-- Use the Original, Pole-to-Pole, and Continuous Phyllotaxis sequences from `/sequence`.
 
 **Sub-experiments:**
 - **Recon Experiment 2.1:** Evaluation of trajectory-dependent signal variations — reconstruct the phase at the k-space center. *(Figure 3)*  
 - **Recon Experiment 2.2:** Reconstruct data and observe artifact suppression with Pole-to-Pole and Continuous Phyllotaxis. *(Figure 4)*  
 - **Recon Experiment 2.3:** Phase-compensation correction — reconstruct top or bottom subsets, observe reappearance of artifacts, and apply correction to remove them again. *(Figure 5, Supporting Information Figure S5)*  
-- **Experiment 2.4:** Repeat each spoke four times and reconstruct. *(Supporting Information Figure S6)*
+- **Experiment 2.4:** Repeat each spoke four times and reconstruct (scans 16-18 on [**Zenodo**](https://zenodo.org/uploads/17428583).). *(Supporting Information Figure S6)*
 
 ---
 

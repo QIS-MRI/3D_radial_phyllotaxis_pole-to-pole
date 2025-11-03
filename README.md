@@ -131,8 +131,9 @@ The following experiments from Peper et al., 2025 can be conducted using the pro
 ## References
 
 Peper et al., 2024.  
-*Pole-to-pole spiral phyllotaxis trajectory design improves image quality and quantitative parametric maps of 3D radial MRI.*
-Peper et al. _Evaluate 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping._ Proc. Intl. Soc. Mag. Reson. Med. (2025)
+*Pole-to-Pole 3D Radial Trajectory Designs Improve Image Quality and Quantitative Parametric Mapping in the Brain and Heart.* MRM (2025)
+Peper et al. 
+_Evaluate 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping._ Proc. Intl. Soc. Mag. Reson. Med. (2025)
 
 ## Applications
 Tagliabue et al. _FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart._ Proc. Intl. Soc. Mag. Reson. Med. (2026)

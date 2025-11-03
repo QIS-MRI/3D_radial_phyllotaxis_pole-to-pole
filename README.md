@@ -24,11 +24,11 @@ The following figures illustrate each of the three methods:
 - **Original Phyllotaxis**  
 <img src="/code/trajectories/trajectory_original_nSeg200_nShot89.gif" width="400" alt="Original Phyllotaxis">
 
-- **Pole-to-Pole Phyllotaxis**  
-![Original Phyllotaxis](/code/trajectories/trajectory_pole-to-pole_nSeg200_nShot89.gif)
+- **Pole-to-Pole Phyllotaxis**
+<img src="/code/trajectories/trajectory_pole-to-pole_nSeg200_nShot89.gif" width="400" alt="Original Phyllotaxis">
 
-- **Continuous Phyllotaxis**  
-![Original Phyllotaxis](/code/trajectories/trajectory_continuous_nSeg200_nShot89.gif)
+- **Continuous Phyllotaxis**
+<img src="/code/trajectories/trajectory_continuous_nSeg200_nShot89.gif" width="400" alt="Original Phyllotaxis">
 
 ---
 

@@ -8,14 +8,13 @@ Each method has unique characteristics that impact the sampling of k-space.
 ## Trajectories
 
 ### 1. Original Phyllotaxis
-The original phyllotaxis pattern from *Piccini et al.* ensures uniform coverage of the k-space, distributing points evenly on a spherical surface.
+The original phyllotaxis pattern proposed by [*Piccini et al. ,2011*](https://pubmed.ncbi.nlm.nih.gov/21469185/) provides a uniform sampling of 3D k-space by evenly distributing the starting points of the readout spokes across the upper hemisphere of a spherical surface.
 
 ### 2. Pole-to-Pole Phyllotaxis
-In this trajectory, the starting points of the spokes are located on both hemispheres, and the trajectory follows a path from one pole to the other.
+In this version, the starting points of the spokes are distributed across both hemispheres, following a continuous path from one pole to the other.
 
 ### 3. Continuous Phyllotaxis
-The continuous phyllotaxis trajectory builds upon the pole-to-pole approach by adjusting the path so that the angular position increases continuously from one pole to the other before returning to its starting point.  
-This design further minimizes eddy current effects by avoiding jumps at the start of each segment.
+The continuous phyllotaxis trajectory extends the pole-to-pole design by smoothly connecting the path from one pole to the other and back to the starting point. This continuous trajectory motion further reduces eddy current effects by eliminating discontinuities between segments.
 
 ---
 
@@ -36,8 +35,7 @@ The following figures illustrate each of the three methods:
 
 ## Code
 
-The repository contains MATLAB code to generate and plot these trajectories.  
-You can set the desired number of readout points, interleaves (shots), and segments.
+The repository contains MATLAB code to generate and plot these trajectories. You can set the desired number of readout points, interleaves (shots), and segments.
 
 ### Directory Structure
 
@@ -59,7 +57,7 @@ You can set the desired number of readout points, interleaves (shots), and segme
 
 ### Sequence `.seq` Files
 
-The provided Pulseq `.seq` files can be executed on any MRI system equipped with a Pulseq interpreter, subject to the following system definitions and hardware limits.
+The provided [Pulseq](https://pubmed.ncbi.nlm.nih.gov/27271292/) `.seq` files can be executed on any MRI system equipped with a Pulseq interpreter, subject to the following system definitions and hardware limits.
 
 **System limits (as defined in `mr.Opts`):**
 ```python
@@ -91,11 +89,7 @@ system.rf_dead_time = 100e-6
 - FOV: 160 mm
 
 **Notes and Limitations:**  
-These sequences were designed and tested according to the accompanying manuscript.  
-The uploaded `.seq` files reproduce the experimental results shown in the paper (Figs. 2–5).  
-Only the compiled `.seq` files are shared here. The underlying source code for generating these sequences is part of a separate publication and is therefore not included in this repository.  
-
-Users may directly play out the `.seq` files on any compatible MRI scanner with a Pulseq interpreter installed.
+The compiled Pulseq `.seq`  files contain the sequences used to conduct the experiments described in Peper et al., 2025. These files can be directly executed on any MRI scanner equipped with a compatible Pulseq interpreter.
 
 > **Disclaimer:**  
 > Please verify that the system limits match your scanner hardware before execution.  
@@ -105,8 +99,8 @@ Users may directly play out the `.seq` files on any compatible MRI scanner with 
 
 ## 3D Radial Phyllotaxis Reconstruction Code
 
-All data can be retrieved from [**Zenodo**] (https://zenodo.org/uploads/17428583)  
-The following experiments from the paper can be conducted using the provided data and code.
+All data can be retrieved from [**Zenodo**](https://zenodo.org/uploads/17428583)  
+The following experiments from Peper et al., 2025 can be conducted using the provided data and code.
 
 ---
 
@@ -138,3 +132,8 @@ The following experiments from the paper can be conducted using the provided dat
 
 Peper et al., 2024.  
 *Pole-to-pole spiral phyllotaxis trajectory design improves image quality and quantitative parametric maps of 3D radial MRI.*
+Peper et al. _Evaluate 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping._ Proc. Intl. Soc. Mag. Reson. Med. (2025)
+
+## Applications
+Tagliabue et al. _FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart._ Proc. Intl. Soc. Mag. Reson. Med. (2026)
+Tagliabue et al. _FID-self-navigation to track physiological motion with high temporal resolution in 3D radial MRI of the heart._ Proc. Intl. Soc. Mag. Reson. Med. (2026)

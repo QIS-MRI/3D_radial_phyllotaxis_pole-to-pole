@@ -2,10 +2,7 @@
 
 [← Back to main project](../README.md)
 
-This folder contains **PyPulseq `.seq` files** used in *Peper et al., 2025*.  
-The sequences were designed and tested according to the manuscript, and the uploaded files reproduce the experimental results shown in the paper.
-
-Only the **compiled `.seq` files** are shared here. Users may directly play out the sequences on any compatible MRI scanner equipped with a Pulseq interpreter.
+This folder contains [Pulseq](https://pubmed.ncbi.nlm.nih.gov/27271292/) `.seq` files, which can be executed on any MRI system equipped with a Pulseq interpreter, subject to the following system definitions and hardware limits.
 
 > **Disclaimer:**  
 > Please verify that the system limits match your scanner hardware before execution.  
@@ -14,8 +11,6 @@ Only the **compiled `.seq` files** are shared here. Users may directly play out 
 ---
 
 ## System Definition
-
-All sequences were generated with the following system settings (as defined in `mr.Opts`):
 
 ```python
 system = mr.Opts(
@@ -39,6 +34,7 @@ system.rf_dead_time = 100e-6
 ---
 
 ## Sequence Parameters
+Sequence numbering follows the raw data provided on [**Zenodo**](https://zenodo.org/uploads/17428583)  
 
 ### `Scan01_Original_200x89_348BW_TR5ms_FA20_Whisper`
 - Trajectory: 3D radial, original phyllotaxis  
@@ -62,7 +58,7 @@ system.rf_dead_time = 100e-6
 
 ---
 
-### `Scan03_PoleToPole_200x89_1389BW_TR5ms_FA20_Whisper`
+### `Scan07_PoleToPole_200x89_1389BW_TR5ms_FA20_Whisper`
 - Trajectory: 3D radial, pole-to-pole phyllotaxis  
 - Segments: 200  
 - Interleaves: 89  
@@ -73,7 +69,7 @@ system.rf_dead_time = 100e-6
 
 ---
 
-### `Scan04_Continuous_200x89_1389BW_TR5ms_FA20_Whisper`
+### `Scan12_Continuous_200x89_1389BW_TR5ms_FA20_Whisper`
 - Trajectory: 3D radial, continuous phyllotaxis  
 - Segments: 200  
 - Interleaves: 89  
@@ -84,7 +80,7 @@ system.rf_dead_time = 100e-6
 
 ---
 
-## Reference
+## References
 
-Peper et al., 2025  
-*Pole-to-pole spiral phyllotaxis trajectory design improves image quality and quantitative parametric maps of 3D radial MRI*.
+<!-- Peper et al. *Pole-to-Pole 3D Radial Trajectory Designs Improve Image Quality and Quantitative Parametric Mapping in the Brain and Heart.* MRM (2025)-->
+Peper et al. [*Evaluation of 3D Radial Phyllotaxis Trajectories for Artifact-Free Imaging and Parametric Mapping.*](https://archive.ismrm.org/2025/0636_38aazwRbM.html) Proc. Intl. Soc. Mag. Reson. Med. (2025)
